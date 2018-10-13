@@ -58,7 +58,7 @@ public class Cours3_Bridge{
    { pointsDistri = (pointsDistri + 1);
   } else if (nCouleurP == 3 || nCouleurP == 4)
     { pointsDistri = (pointsDistri + 0);
-  }else if (nCouleurP >= 5)
+  }else if (nCouleurP > 5)
   { pointsDistri = (pointsDistri + (nCouleurP - 5));
   }
   
@@ -70,7 +70,7 @@ public class Cours3_Bridge{
    { pointsDistri = (pointsDistri + 1);
   } else if (nCouleurT == 3 || nCouleurP == 4)
     { pointsDistri = (pointsDistri + 0);
-  }else if (nCouleurT >= 5)
+  }else if (nCouleurT > 5)
   { pointsDistri = (pointsDistri + (nCouleurT - 5));
   }
   
@@ -82,7 +82,7 @@ public class Cours3_Bridge{
    { pointsDistri = (pointsDistri + 1);
   } else if (nCouleurC == 3 || nCouleurP == 4)
     { pointsDistri = (pointsDistri + 0);
-  }else if (nCouleurC >= 5)
+  }else if (nCouleurC > 5)
   { pointsDistri = (pointsDistri + (nCouleurC - 5));
   }
   
@@ -94,7 +94,7 @@ public class Cours3_Bridge{
    { pointsDistri = (pointsDistri + 1);
   } else if (nCouleurK == 3 || nCouleurP == 4)
     { pointsDistri = (pointsDistri + 0);
-  }else if (nCouleurK >= 5)
+  }else if (nCouleurK > 5)
   { pointsDistri = (pointsDistri + (nCouleurK - 5));
   }
    System.out.println("Le nombre de points d'honneur s'élève à " + pointsHonneur + ".");
