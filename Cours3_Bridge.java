@@ -4,7 +4,6 @@ import java.util.Scanner; // Il faut passer par la classe Scanner pour les char 
   
 public class Cours3_Bridge{
   public static void main (String[] args){
-    // if (couleur == 'p') // Pour vérifier la valeur du char
     
    char valeur, couleur;
    int nombreCartes = 0, pointsHonneur = 0, pointsDistri = 0, totalPoints = 0;
