@@ -18,14 +18,14 @@ public class Cours3_Bridge{
        couleur = sc.next().charAt(0); // entrer la valeur de la variable "couleur"
        System.out.println("" + valeur + couleur); // Afficher la concaténation de deux char
        nombreCartes++;
-       if (valeur == 'A') // Calcul nombre de points d'honneur
+       if (valeur == 'A' ^ valeur == 'a') // Calcul nombre de points d'honneur, ^ pour XOR
        {
          pointsHonneur = (pointsHonneur + 4);
-       } else if (valeur == 'R')
+       } else if (valeur == 'R' ^ valeur == 'r')
        {
          pointsHonneur = (pointsHonneur + 3);
          System.out.println(pointsHonneur);
-         } else if (valeur == 'D')
+         } else if (valeur == 'D' ^ valeur == 'd')
        {
          pointsHonneur = (pointsHonneur + 2);
          } else if (valeur == 'V')
@@ -34,16 +34,16 @@ public class Cours3_Bridge{
          }else{
            pointsHonneur = (pointsHonneur + 0);
          }
-         if (couleur == 'P') // Calcul nombre de cartes par couleur
+         if (couleur == 'P' ^ couleur == 'p') // Calcul nombre de cartes par couleur
          {
            nCouleurP++;
-         } else if (couleur == 'T')
+         } else if (couleur == 'T' ^ couleur == 't')
          {
            nCouleurT++;
-         } else if (couleur == 'C')
+         } else if (couleur == 'C' ^ couleur == 'c')
          { 
            nCouleurC++;
-         } else if (couleur == 'K')
+         } else if (couleur == 'K' ^ couleur == 'k')
          {
            nCouleurK++;
          }
